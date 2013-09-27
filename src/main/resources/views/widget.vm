@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>$appSettings.getTitle() Widget</title>
+    <title>Resaline Booking Calendar Widget</title>
     <link href="http://current.bootstrapcdn.com/bootstrap-v204/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://current.bootstrapcdn.com/bootstrap-v204/css/bootstrap-responsive.min.css" rel="stylesheet">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
@@ -9,13 +9,12 @@
 </head>
 
 <body>
+<h1>Resaline Booking Calendar Widget</h1>
 <div class="container-fluid">
     <div class="row-fluid">
         <div class="hero-unit" id="title">
         </div>
     </div>
-
-##    instance-details
 
     <div class="container-fluid thumbnail"
          style="margin-bottom:20px; padding:20px; box-shadow:#ccc 0 0 15px">
@@ -43,7 +42,7 @@
 
     <script type="text/javascript">
 
-        var settings = ${settings};
+     /*   var settings = ${settings};
         $(document).ready(function() {
             init();
         })
@@ -59,7 +58,7 @@
             $('#title').html('<h2>'+settings.title+'</h2>');
             $('#title').css('background-color', settings.styling.color);
         }
-
+*/
     </script>
 
 </div>
